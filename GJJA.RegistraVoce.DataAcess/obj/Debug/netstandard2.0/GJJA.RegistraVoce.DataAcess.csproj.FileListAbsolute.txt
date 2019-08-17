@@ -1,0 +1,12 @@
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.csprojAssemblyReference.cache
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.csproj.CoreCompileInputs.cache
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.AssemblyInfoInputs.cache
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.AssemblyInfo.cs
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/bin/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.deps.json
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/bin/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.dll
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/bin/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.pdb
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.dll
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.pdb
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/bin/Debug/netstandard2.0/GJJA.RegistraVoce.Domain.dll
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/bin/Debug/netstandard2.0/GJJA.RegistraVoce.Domain.pdb
+/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAcess.csproj.CopyComplete
