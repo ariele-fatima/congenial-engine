@@ -4277,11 +4277,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/GJJA.RegistraVoce.DataAcess.csproj",
+      "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAcess/GJJA.RegistraVoce.DataAcess.csproj",
       "projectName": "GJJA.RegistraVoce.DataAcess",
-      "projectPath": "/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/GJJA.RegistraVoce.DataAcess.csproj",
+      "projectPath": "/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAcess/GJJA.RegistraVoce.DataAcess.csproj",
       "packagesPath": "/home/season/.nuget/packages/",
-      "outputPath": "/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.DataAcess/obj/",
+      "outputPath": "/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAcess/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -4298,8 +4298,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
-              "projectPath": "/home/season/Documentos/projects/GJJA.RegistraVoce/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj"
+            "/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
+              "projectPath": "/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj"
             }
           }
         }
