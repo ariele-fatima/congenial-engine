@@ -1,0 +1,12 @@
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/bin/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.deps.json
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/bin/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.dll
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/bin/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.pdb
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/bin/Debug/netstandard2.0/GJJA.RegistraVoce.Domain.dll
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/bin/Debug/netstandard2.0/GJJA.RegistraVoce.Domain.pdb
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.csprojAssemblyReference.cache
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.csproj.CoreCompileInputs.cache
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.AssemblyInfoInputs.cache
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.AssemblyInfo.cs
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.csproj.CopyComplete
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.dll
+/home/season/Documentos/projects/congenial-engine/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.pdb

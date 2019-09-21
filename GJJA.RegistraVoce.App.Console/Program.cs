@@ -5,12 +5,18 @@ using GJJA.RegistraVoce.Domain;
 using System.Collections.Generic;
 using GJJA.RegistraVoce.Domain.Enums;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using GJJA.RegistraVoce.DataAccess.Entity.Context;
+using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using GJJA.RegistraVoce.App.Console.Factories;
 
 namespace GJJA.RegistraVoce.App.Console
 {
     class Program
     {
         private static string _connectionString = "";
+        private static ServiceProvider _serviceProvider;
         static void Main(string[] args)
         {
             SetUp();
@@ -58,8 +64,10 @@ namespace GJJA.RegistraVoce.App.Console
         {
             try
             {
-                PersonDAO personDAO = new PersonDAO(_connectionString);
-                UI.WriteLine($"Existe(m) {personDAO.Count()} pessoa(s) cadastrada(s).");
+                //PersonDAO personDAO = new PersonDAO(_connectionString);
+                RegistraVoceDbContext context = _serviceProvider.GetService<RegistraVoceDbContext>();
+                //UI.WriteLine($"Existe(m) {personDAO.Count()} pessoa(s) cadastrada(s).");
+                UI.WriteLine($"Existe(m) {context.Set<Person>().Count()} pessoa(s) cadastrada(s).");
             }
             catch(Exception ex)
             {
@@ -75,8 +83,12 @@ namespace GJJA.RegistraVoce.App.Console
                 ShowPeople();
                 UI.Write("Id da pessoa a ser deletada: ");
                 int personId = Convert.ToInt32(UI.ReadLine());
-                PersonDAO personDAO = new PersonDAO(_connectionString);
-                personDAO.Delete(personId);
+                // PersonDAO personDAO = new PersonDAO(_connectionString);
+                // personDAO.Delete(personId);
+                RegistraVoceDbContext context = _serviceProvider.GetService<RegistraVoceDbContext>();
+                Person p = context.Set<Person>().Find(personId);
+                context.Entry(p).State = EntityState.Deleted;
+                context.SaveChanges();
 
             }
             catch(Exception ex)
@@ -93,14 +105,24 @@ namespace GJJA.RegistraVoce.App.Console
                 ShowPeople();
                 UI.Write("Id da pessoa a ser atualizada: ");
                 int personId = Convert.ToInt32(UI.ReadLine());
-                PersonDAO personDAO = new PersonDAO(_connectionString);
-                Person person = personDAO.SelectById(personId);
-                if( person == null)
+                // PersonDAO personDAO = new PersonDAO(_connectionString);
+                // Person person = personDAO.SelectById(personId);
+                // if( person == null)
+                // {
+                //     throw new ArgumentException("ID de pessoa inexistente.");
+                // }
+                // GetPersonFromUI(person);
+                // personDAO.Update(person);
+                RegistraVoceDbContext context = _serviceProvider.GetService<RegistraVoceDbContext>();
+                Person p = context.Set<Person>().Find(personId);
+                if( p == null)
                 {
                     throw new ArgumentException("ID de pessoa inexistente.");
                 }
-                GetPersonFromUI(person);
-                personDAO.Update(person);
+                GetPersonFromUI(p);
+                context.Entry(p).State = EntityState.Modified;
+                context.SaveChanges();
+
             }
             catch(Exception ex)
             {
@@ -115,8 +137,11 @@ namespace GJJA.RegistraVoce.App.Console
                 UI.WriteLine("*** Inserção de pessoa ***");
                 Person person = new Person();
                 GetPersonFromUI(person);
-                PersonDAO personDAO = new PersonDAO(_connectionString);
-                personDAO.Insert(person);
+                // PersonDAO personDAO = new PersonDAO(_connectionString);
+                // personDAO.Insert(person);
+                RegistraVoceDbContext context = _serviceProvider.GetService<RegistraVoceDbContext>();
+                context.Set<Person>().Add(person);
+                context.SaveChanges();
                 UI.WriteLine(" *** Pessoa cadastrado com sucesso! ** ");
             }
             catch (Exception ex)
@@ -127,8 +152,10 @@ namespace GJJA.RegistraVoce.App.Console
 
         private static void ShowPeople()
         {
-            PersonDAO personDAO = new PersonDAO(_connectionString);
-            List<Person> people = personDAO.Select();
+            //PersonDAO personDAO = new PersonDAO(_connectionString);
+            //List<Person> people = personDAO.Select();
+            RegistraVoceDbContext context = _serviceProvider.GetService<RegistraVoceDbContext>();
+            List<Person> people = context.Set<Person>().ToList();
             if(people.Count == 0)
             {
                 UI.WriteLine("Não existem pessoas cadastradas");
@@ -184,10 +211,12 @@ namespace GJJA.RegistraVoce.App.Console
 
         private static void SetUp()
         {
-            //Configuration File
-            IConfigurationBuilder configBuilder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
-            IConfigurationRoot config = configBuilder.Build();
-            _connectionString = config.GetConnectionString("MySqlConnStr");
+            IServiceCollection services = new ServiceCollection();
+            services.AddSingleton<RegistraVoceDbContext>((provider) => 
+            {
+                return new RegistraVoceDbContextFactory().CreateDbContext(new string[]{});
+            }); 
+            _serviceProvider = services.BuildServiceProvider();
         }
 
     }
