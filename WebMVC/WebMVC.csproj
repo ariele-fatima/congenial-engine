@@ -9,10 +9,22 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="MySql.Data" Version="8.0.17" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="../1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj" />
+    <ProjectReference Include="../2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj" />
+    <ProjectReference Include="../3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj" />
+    <ProjectReference Include="../3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="appsettings.json" CopyToOutputDirectory="Always" />  
+  </ItemGroup>
+
 
 </Project>

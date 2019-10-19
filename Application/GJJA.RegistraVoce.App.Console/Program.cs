@@ -142,9 +142,10 @@ namespace GJJA.RegistraVoce.App.Console
         {
             //PersonDAO personDAO = new PersonDAO(_connectionString);
             //List<Person> people = personDAO.Select();
+            //RegistraVoceDbContext context = _serviceProvider.GetService<RegistraVoceDbContext>();
+            //List<Person> people = context.Set<Person>().ToList();
             ICrudRepository<Person, int> personRepository = _serviceProvider.GetService<ICrudRepository<Person, int>>();
-            RegistraVoceDbContext context = _serviceProvider.GetService<RegistraVoceDbContext>();
-            List<Person> people = context.Set<Person>().ToList();
+            List<Person> people = personRepository.Select();
             if(people.Count == 0)
             {
                 UI.WriteLine("Não existem pessoas cadastradas");
