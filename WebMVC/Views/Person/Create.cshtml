@@ -1,0 +1,57 @@
+@model PersonModel
+@using GJJA.RegistraVoce.Domain.Enums
+
+@{
+    ViewData["Title"] = "Create Person Page";
+}
+
+<h2>*** Create Person Page ***</h2>
+
+<strong>
+@Html.ActionLink("List all", "Index", "Person")
+</strong>
+
+@using (Html.BeginForm("Insert", "Person", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <th>Parameter</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>@Html.EditorFor(m => m.Name, new { @class="form-control"})</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>@Html.DropDownListFor(m => m.Gender, new SelectList(Enum.GetValues(typeof(Gender))), new { @class="form-control"})
+            </td>
+        </tr>
+        <tr>
+            <td>Document Number</td>
+            <td>@Html.EditorFor(m => m.DocumentNumber, new { @class="form-control"})</td>
+        </tr>
+        <tr>
+            <td>Identification</td>
+            <td>@Html.EditorFor(m => m.Identification, new { @class="form-control"})</td>
+        </tr>
+        <tr>
+            <td>Birth Date</td>
+            <td>@Html.EditorFor(m => m.BirthDate, new { @class="form-control"})</td>
+        </tr>
+        <tr>
+            <td>Marital Status</td>
+            <td>@Html.DropDownListFor(m => m.MaritalStatus, new SelectList(Enum.GetValues(typeof(MaritalStatus))), new { @class="form-control"})
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>@Html.EditorFor(m => m.Address, new { @class="form-control"})</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>@Html.EditorFor(m => m.Phone, new { @class="form-control"})</td>
+        </tr>
+    </table>
+    <input type="submit" value="Save Person"/>
+}

@@ -41,3 +41,5 @@
 /home/season/Documentos/projects/congenial-engine/WebMVC/bin/Debug/netcoreapp2.2/GJJA.RegistraVoce.Repository.Entity.pdb
 /home/season/Documentos/projects/congenial-engine/WebMVC/bin/Debug/netcoreapp2.2/GJJA.Repository.Common.Entity.pdb
 /home/season/Documentos/projects/congenial-engine/WebMVC/bin/Debug/netcoreapp2.2/appsettings.json
+/home/season/Documentos/projects/congenial-engine/WebMVC/obj/Debug/netcoreapp2.2/Razor/Views/Person/Create.g.cshtml.cs
+/home/season/Documentos/projects/congenial-engine/WebMVC/obj/Debug/netcoreapp2.2/Razor/Views/Person/Edit.g.cshtml.cs

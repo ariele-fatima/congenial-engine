@@ -2991,6 +2991,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views/Person/Create.cshtml",
+      "TargetPath": "Views/Person/Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views/Shared/Error.cshtml",
       "TargetPath": "Views/Shared/Error.cshtml",
       "FileKind": "mvc"
@@ -3008,6 +3013,11 @@
     {
       "FilePath": "Views/Person/Index.cshtml",
       "TargetPath": "Views/Person/Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "Views/Person/Edit.cshtml",
+      "TargetPath": "Views/Person/Edit.cshtml",
       "FileKind": "mvc"
     }
   ],
