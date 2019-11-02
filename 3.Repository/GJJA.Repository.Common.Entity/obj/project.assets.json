@@ -2588,35 +2588,37 @@
     ]
   },
   "packageFolders": {
-    "/home/season/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\ariel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\GJJA.Repository.Common.Entity.csproj",
       "projectName": "GJJA.Repository.Common.Entity",
-      "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
-      "packagesPath": "/home/season/.nuget/packages/",
-      "outputPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/obj/",
+      "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\GJJA.Repository.Common.Entity.csproj",
+      "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/season/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj": {
-              "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj"
+            "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj": {
+              "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj"
             }
           }
         }

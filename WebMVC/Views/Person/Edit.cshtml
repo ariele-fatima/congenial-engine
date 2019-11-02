@@ -21,38 +21,38 @@
         </tr>
         <tr>
             <td>Name</td>
-            <td>@Html.EditorFor(m => m.Name, new { @class="form-control"})</td>
+            <td>@Html.TextBoxFor(m => m.Name, new { @class="form-control form-text"})</td>
         </tr>
         <tr>
             <td>Gender</td>
-            <td>@Html.DropDownListFor(m => m.Gender, new SelectList(Enum.GetValues(typeof(Gender))), new { @class="form-control"})
+            <td>@Html.DropDownListFor(m => m.Gender, new SelectList(Enum.GetValues(typeof(Gender))), new { @class="form-control form-text"})
             </td>
         </tr>
         <tr>
             <td>Document Number</td>
-            <td>@Html.EditorFor(m => m.DocumentNumber, new { @class="form-control"})</td>
+            <td>@Html.TextBoxFor(m => m.DocumentNumber, new { @class="form-control form-text"})</td>
         </tr>
         <tr>
             <td>Identification</td>
-            <td>@Html.EditorFor(m => m.Identification, new { @class="form-control"})</td>
+            <td>@Html.TextBoxFor(m => m.Identification, new { @class="form-control form-text"})</td>
         </tr>
         <tr>
             <td>Birth Date</td>
-            <td>@Html.EditorFor(m => m.BirthDate, new { @class="form-control"})</td>
+            <td>@Html.TextBoxFor(m => m.BirthDate, "{0:dd/MM/yyyy}", new { @class="form-control form-text"})</td>
         </tr>
         <tr>
             <td>Marital Status</td>
-            <td>@Html.DropDownListFor(m => m.MaritalStatus, new SelectList(Enum.GetValues(typeof(MaritalStatus))), new { @class="form-control"})
+            <td>@Html.DropDownListFor(m => m.MaritalStatus, new SelectList(Enum.GetValues(typeof(MaritalStatus))), new { @class="form-control form-text"})
             </td>
         </tr>
         <tr>
             <td>Address</td>
-            <td>@Html.EditorFor(m => m.Address, new { @class="form-control"})</td>
+            <td>@Html.TextBoxFor(m => m.Address, new { @class="form-control form-text"})</td>
         </tr>
         <tr>
             <td>Phone</td>
-            <td>@Html.EditorFor(m => m.Phone, new { @class="form-control"})</td>
+            <td>@Html.TextBoxFor(m => m.Phone, new { @class="form-control form-text"})</td>
         </tr>
     </table>
-    <input type="submit" value="Update Person"/>
+    <input type="submit" value="Update Person"  class="btn btn-primary"/>
 }

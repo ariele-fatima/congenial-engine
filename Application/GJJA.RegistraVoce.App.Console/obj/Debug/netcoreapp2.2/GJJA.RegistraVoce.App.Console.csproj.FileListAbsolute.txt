@@ -56,3 +56,26 @@
 /home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/bin/Debug/netcoreapp2.2/GJJA.Repository.Common.pdb
 /home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/bin/Debug/netcoreapp2.2/GJJA.RegistraVoce.Repository.Entity.pdb
 /home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/bin/Debug/netcoreapp2.2/GJJA.Repository.Common.Entity.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.deps.json
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.runtimeconfig.json
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.runtimeconfig.dev.json
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.DataAccess.Entity.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.Domain.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.Repository.Entity.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.Repository.Common.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.Repository.Common.Entity.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.Domain.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.DataAccess.Entity.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.Repository.Common.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.RegistraVoce.Repository.Entity.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\bin\Debug\netcoreapp2.2\GJJA.Repository.Common.Entity.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\obj\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.csprojAssemblyReference.cache
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\obj\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.csproj.CoreCompileInputs.cache
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\obj\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.AssemblyInfoInputs.cache
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\obj\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.AssemblyInfo.cs
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\obj\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.csproj.CopyComplete
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\obj\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\Application\GJJA.RegistraVoce.App.Console\obj\Debug\netcoreapp2.2\GJJA.RegistraVoce.App.Console.pdb

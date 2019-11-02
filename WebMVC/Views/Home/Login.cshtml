@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=1,initial-scale=1,user-scalable=1" />
+	<title>Login</title>
+	
+	<link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/styles.css" />
+	
+</head>
+<body>
+	<section class="container">
+			<section class="login-form samp">
+				<form method="post" action="" role="login">
+                    <h3 class="text-dark text-center">Login</h3>
+					<input type="text" name="user" placeholder="User" required class="form-control input-lg" />
+					<input type="password" name="password" placeholder="Password" required digits class="form-control input-lg" />
+					<button type="submit" name="go" class="btn btn-lg btn-primary btn-block">Sign in</button>
+					<div>
+						<a asp-area="" asp-controller="Home" asp-action="CreateUser">Create User</a>
+					</div>
+				</form>
+			</section>
+	</section>
+	
+	<script src="~/lib/jquery-validation/dist/js/jquery.validate.js"></script>
+
+</body>
+</html>

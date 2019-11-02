@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/GJJA.RegistraVoce.App.Console.csproj": {}
+    "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\Application\\GJJA.RegistraVoce.App.Console\\GJJA.RegistraVoce.App.Console.csproj": {}
   },
   "projects": {
-    "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
+    "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj",
         "projectName": "GJJA.RegistraVoce.Domain",
-        "projectPath": "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj",
-        "packagesPath": "/home/season/.nuget/packages/",
-        "outputPath": "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/obj/",
+        "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/season/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -54,32 +56,34 @@
         }
       }
     },
-    "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj": {
+    "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\GJJA.RegistraVoce.DataAccess.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\GJJA.RegistraVoce.DataAccess.Entity.csproj",
         "projectName": "GJJA.RegistraVoce.DataAccess.Entity",
-        "projectPath": "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj",
-        "packagesPath": "/home/season/.nuget/packages/",
-        "outputPath": "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/obj/",
+        "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\GJJA.RegistraVoce.DataAccess.Entity.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/season/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj"
               }
             }
           }
@@ -124,38 +128,40 @@
         }
       }
     },
-    "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj": {
+    "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.RegistraVoce.Repository.Entity\\GJJA.RegistraVoce.Repository.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.RegistraVoce.Repository.Entity\\GJJA.RegistraVoce.Repository.Entity.csproj",
         "projectName": "GJJA.RegistraVoce.Repository.Entity",
-        "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj",
-        "packagesPath": "/home/season/.nuget/packages/",
-        "outputPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.RegistraVoce.Repository.Entity/obj/",
+        "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.RegistraVoce.Repository.Entity\\GJJA.RegistraVoce.Repository.Entity.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.RegistraVoce.Repository.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/season/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj"
               },
-              "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\GJJA.RegistraVoce.DataAccess.Entity.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\GJJA.RegistraVoce.DataAccess.Entity.csproj"
               },
-              "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\GJJA.Repository.Common.Entity.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\GJJA.Repository.Common.Entity.csproj"
               }
             }
           }
@@ -188,32 +194,34 @@
         }
       }
     },
-    "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj": {
+    "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\GJJA.Repository.Common.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\GJJA.Repository.Common.Entity.csproj",
         "projectName": "GJJA.Repository.Common.Entity",
-        "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/GJJA.Repository.Common.Entity.csproj",
-        "packagesPath": "/home/season/.nuget/packages/",
-        "outputPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common.Entity/obj/",
+        "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\GJJA.Repository.Common.Entity.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/season/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj"
               }
             }
           }
@@ -246,25 +254,27 @@
         }
       }
     },
-    "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj": {
+    "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj",
+        "projectUniqueName": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj",
         "projectName": "GJJA.Repository.Common",
-        "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj",
-        "packagesPath": "/home/season/.nuget/packages/",
-        "outputPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/obj/",
+        "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/season/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -296,41 +306,43 @@
         }
       }
     },
-    "/home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/GJJA.RegistraVoce.App.Console.csproj": {
+    "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\Application\\GJJA.RegistraVoce.App.Console\\GJJA.RegistraVoce.App.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/GJJA.RegistraVoce.App.Console.csproj",
+        "projectUniqueName": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\Application\\GJJA.RegistraVoce.App.Console\\GJJA.RegistraVoce.App.Console.csproj",
         "projectName": "GJJA.RegistraVoce.App.Console",
-        "projectPath": "/home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/GJJA.RegistraVoce.App.Console.csproj",
-        "packagesPath": "/home/season/.nuget/packages/",
-        "outputPath": "/home/season/Documentos/projects/congenial-engine/Application/GJJA.RegistraVoce.App.Console/obj/",
+        "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\Application\\GJJA.RegistraVoce.App.Console\\GJJA.RegistraVoce.App.Console.csproj",
+        "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\Application\\GJJA.RegistraVoce.App.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/season/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\1.Domain\\GJJA.RegistraVoce.Domain\\GJJA.RegistraVoce.Domain.csproj"
               },
-              "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\GJJA.RegistraVoce.DataAccess.Entity.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\2.DataAccess\\GJJA.RegistraVoce.DataAccess.Entity\\GJJA.RegistraVoce.DataAccess.Entity.csproj"
               },
-              "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.RegistraVoce.Repository.Entity/GJJA.RegistraVoce.Repository.Entity.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.RegistraVoce.Repository.Entity\\GJJA.RegistraVoce.Repository.Entity.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.RegistraVoce.Repository.Entity\\GJJA.RegistraVoce.Repository.Entity.csproj"
               },
-              "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj": {
-                "projectPath": "/home/season/Documentos/projects/congenial-engine/3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj"
+              "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\CRUD dotNet\\congenial-engine\\3.Repository\\GJJA.Repository.Common\\GJJA.Repository.Common.csproj"
               }
             }
           }

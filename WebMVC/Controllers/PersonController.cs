@@ -59,6 +59,7 @@ namespace WebMVC.Controllers
             LoadPeople();
             return View("Index", model);
         }
+
         public IActionResult Edit(int personId)
         {
             ICrudRepository<Person, int> personRepository = _serviceProvider.GetService<ICrudRepository<Person, int>>();
@@ -67,9 +68,15 @@ namespace WebMVC.Controllers
             return View(model);   
         }
 
-        public IActionResult Create()
+        public IActionResult Details(int personId)
         {
-            
+            ICrudRepository<Person, int> personRepository = _serviceProvider.GetService<ICrudRepository<Person, int>>();
+            var person = personRepository.SelectById(personId);
+            PersonModel model= new PersonModel(person);           
+            return View(model);   
+        }
+        public IActionResult Create()
+        {            
             var model = new PersonModel();
             return View(model);
         }

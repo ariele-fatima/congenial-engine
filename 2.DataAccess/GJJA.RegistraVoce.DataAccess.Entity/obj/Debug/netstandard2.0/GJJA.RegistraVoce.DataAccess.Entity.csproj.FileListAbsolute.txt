@@ -22,3 +22,15 @@
 /home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.csproj.CopyComplete
 /home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.dll
 /home/season/Documentos/projects/congenial-engine/2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/obj/Debug/netstandard2.0/GJJA.RegistraVoce.DataAccess.Entity.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\bin\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.deps.json
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\bin\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\bin\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\bin\Debug\netstandard2.0\GJJA.RegistraVoce.Domain.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\bin\Debug\netstandard2.0\GJJA.RegistraVoce.Domain.pdb
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\obj\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.csprojAssemblyReference.cache
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\obj\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\obj\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.AssemblyInfoInputs.cache
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\obj\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.AssemblyInfo.cs
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\obj\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.csproj.CopyComplete
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\obj\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.dll
+C:\Users\ariel\Documents\CRUD dotNet\congenial-engine\2.DataAccess\GJJA.RegistraVoce.DataAccess.Entity\obj\Debug\netstandard2.0\GJJA.RegistraVoce.DataAccess.Entity.pdb

@@ -11,41 +11,33 @@
 </strong>
 
 
-<table border="1" style="width: 100%">
+<table class="table table-striped" >
     <tr>
-        <th>Id</th>
-        <th>Nome</th>
-        <th>Gênero</th>
-        <th>RG</th>
-        <th>CPF</th>
-        <th>Nacimentos</th>
-        <th>Estado Civil</th>
-        <th>Endereço</th>
-        <th>Telefone</th>
-        <th>Editar</th>
-        <th>Excluir</th>        
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Details</th>
+        <th>Edit</th>
+        <th>Delete</th>        
     </tr>
 
 @foreach(var person in Model.ListPerson)
 {
     <tr>
-        <td>@person.Id</td>
         <td>@person.Name</td>
         <td>@person.Gender</td>
-        <td>@person.DocumentNumber</td>
-        <td>@person.Identification</td>
-        <td>@person.BirthDate</td>
-        <td>@person.MaritalStatus</td>
-        <td>@person.Address</td>
-        <td>@person.Phone</td>
-        <td style="text-align: center; color: blue">
+        <td>
             <strong>
-                @Html.ActionLink("Editar", "Edit", "Person", new { personId = person.Id })
+                @Html.ActionLink("Details", "Details", "Person", new { personId = person.Id })
             </strong>
         </td>
-        <td style="text-align: center; color: red">
+        <td>
             <strong>
-                @Html.ActionLink("Excluir", "DeletePerson", "Person", new { personId = person.Id })
+                @Html.ActionLink("Edit", "Edit", "Person", new { personId = person.Id })
+            </strong>
+        </td>
+        <td>
+            <strong>
+                @Html.ActionLink("Delete", "DeletePerson", "Person", new { personId = person.Id })
             </strong>
         </td>
 
