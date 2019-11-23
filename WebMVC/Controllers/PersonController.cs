@@ -10,9 +10,11 @@ using Microsoft.Extensions.DependencyInjection;
 using GJJA.RegistraVoce.Domain;
 using System.Collections.Generic;
 using WebMVC.Factories;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebMVC.Controllers
 {
+    [Authorize]
     public class PersonController :  Controller
     {
         private static ServiceProvider _serviceProvider;

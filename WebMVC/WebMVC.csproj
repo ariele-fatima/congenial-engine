@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-WebMVCAuth-66D0C4BF-6342-416D-A6E4-3DC03FC52796</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
@@ -11,11 +12,11 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="MySql.Data" Version="8.0.17" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.17" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
-  </ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4"/>
 
-  <ItemGroup>
     <ProjectReference Include="../1.Domain/GJJA.RegistraVoce.Domain/GJJA.RegistraVoce.Domain.csproj" />
     <ProjectReference Include="../2.DataAccess/GJJA.RegistraVoce.DataAccess.Entity/GJJA.RegistraVoce.DataAccess.Entity.csproj" />
     <ProjectReference Include="../3.Repository/GJJA.Repository.Common/GJJA.Repository.Common.csproj" />
@@ -24,6 +25,10 @@
 
   <ItemGroup>
     <None Include="appsettings.json" CopyToOutputDirectory="Always" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 
